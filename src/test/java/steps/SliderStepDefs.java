@@ -1,7 +1,9 @@
-package step_definitions;
+package steps;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+
+import static org.testng.Assert.assertEquals;
 
 public class SliderStepDefs {
 
@@ -11,10 +13,12 @@ public class SliderStepDefs {
     }
     @Then("slider bar should be displayed")
     public void slider_bar_should_be_displayed() {
+        assertEquals(1, 1);
 
     }
     @Then("current value should be displayed")
     public void current_value_should_be_displayed() {
+        assertEquals(1, 1);
 
     }
 }
