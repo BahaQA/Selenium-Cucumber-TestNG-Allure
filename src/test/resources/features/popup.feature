@@ -4,6 +4,7 @@ Feature: Popup feature
     Given user is on the homepage
     When user clicks popup menu
 
+  @smoke
   Scenario:
     Then popup menu should be displayed
 

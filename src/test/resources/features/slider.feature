@@ -4,6 +4,7 @@ Feature: Slider feature
     Given user is on the homepage
     When user clicks slider menu
 
+  @smoke
   Scenario:
     Then slider bar should be displayed
 

@@ -4,6 +4,7 @@ Feature: Form fields
     Given user is on the homepage
     When user clicks form fields menu
 
+    @smoke
   Scenario:
     Then name field should be displayed
 

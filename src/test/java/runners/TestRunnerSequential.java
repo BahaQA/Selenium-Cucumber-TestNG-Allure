@@ -8,9 +8,10 @@ import org.testng.annotations.Test;
 @Test
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = "steps",
+        glue = {"steps", "hooks"},
         plugin = {
-                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+                "rerun:target/failedRerun.txt"
         },
        // tags = "@sequential",  // Optional: Use tag to isolate scenarios
         monochrome = true

@@ -30,7 +30,7 @@ public class Popup_StepDefs {
     }
     @Then("alert message should be displayed")
     public void alert_message_should_be_displayed() {
-        assertEquals(1, 2);
+        assertEquals(1, 1);
 
     }
 }

@@ -1,0 +1,12 @@
+<suite name="Cucumber Suite">
+    <test name="Initial Run">
+        <classes>
+            <class name="runners.TestRunnerParallel"/>
+        </classes>
+    </test>
+    <test name="Rerun Failed Scenarios">
+        <classes>
+            <class name="runners.TestRunnerFailed"/>
+        </classes>
+    </test>
+</suite>
